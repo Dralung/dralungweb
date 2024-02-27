@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>
+        contact form practice
+      </title>
+      <meta charset="uft-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .main-div{
+                margin:auto;
+                max-width:1000px;
+                background-color: palegoldenrod;
+                left:0;
+                right:0;
+                bottom:0;
+            }
+            .heading{
+              height:10%;
+              background-color:rgb(236, 243, 205);
+              display:flex;
+              align-items: center;
+              justify-content: center;
+              color:white;
+              font-size:50px;
+              font-weight: bold;
+            }
+            h1{
+              color:rgb(255, 255, 251);
+            }
+
+            .form{
+                height:600px;
+                width:400px;
+                background-color: rgb(231, 211, 101);
+                border-radius:20px;
+                padding-left:50%;
+                border-width:2px;
+                border-color:white;
+                border-style:solid;
+                padding-right:10%;
+                position:relative;
+            }
+            .logo{
+              height:200px;
+              width:200px;
+              position:absolute;
+              top:0;
+              left:0;
+
+            }
+            form{
+                display:flex;
+                flex-direction:column;
+                row-gap:60px;
+            }
+            input{
+              color: white;
+              background-color:papayawhip;
+              outline:none;
+              border-style:solid;
+              border-color:white;
+              border-width:1px;
+              box-shadow: inset 1px 1px 10px rgba(0,0,0,0.5);
+              height:5vh;
+              border-radius:4px;
+            }
+            input::placeholder{
+              color: gray;
+              font-size:20px;
+            }
+            textarea{
+              height:100px;
+              box-shadow: inset 2px 2px 10px rgba(0,0,0,0.5);
+            }
+            textarea::placeholder{
+              color:gray;
+              font-size:20px;
+            }
+            .button{
+              color:gray;
+              margin:auto;
+              border-radius:10px;
+              border-style:solid;
+              border-color:white;
+              box-shadow: 2px 2px 10px rgba(92, 92, 88, 0.5);
+            }
+            .stanza{
+              background-color:rgb(207, 207, 178);
+              width:100%;
+              height:100%;
+              padding-bottom: 30px;
+              display:flex;
+              align-items:center;
+              flex-direction: column;
+            }
+            .stanza p{
+              color:white;
+              font-size:30px;
+            }
+        </style>
+    </head>
+    <body>
+      <div class="main-div">
+        <div class="heading">
+          <h2> CONTACT</h2>
+        </div>
+        <div class="form">
+          <img class="logo"src="images/main-logo.png">
+         <h1>འབྲེལ་སྟུགས།</h1>
+            <form action="https://formsubmit.co/ngawangjigme101@gmail.com" method="POST">
+              <input type="text" name="name" required placeholder="Name (མིང་།)">
+              <input type="email" name="email" required placeholder="Email  (འཕྲིན་འབྲེལ།)">
+              <input type="text" name="subject" required placeholder="Subject (བརྗོད་གཞི།)">
+              <textarea name="message" required placeholder="Message  (བརྗོད་དོན།)"></textarea>
+              <input type="hidden" name="_captcha" value="false">           
+              <input type="hidden" name="_template" value="box"> 
+              <button class="button" type="submit">Submit</button>
+           </form> 
+
+      </div>
+      <div class="stanza">
+            <p>སྡིག་པ་ཅི་ཡང་མི་བྱ་ཞིང་།།</p>
+            <p>དགེ་བ་ཕུན་སུམ་ཚོགས་པར་སྤྱོད།།</p>
+            <p>རང་གི་སེམས་ནི་ཡོངས་སུ་འདུལ།།</p>
+            <p>འདི་ནི་སངས་རྒྱས་བསྟན་པ་ཡིན།།</p>         
+      </div> 
+    </body>
+</html>

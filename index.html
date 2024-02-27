@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .mainbody{
+                height:2200px;
+                background-color:rgb(235, 224, 76);
+                margin:auto;
+                max-width:1000px;
+                position:relative;
+            }
+            .heading{
+                height:150px;
+                background-color: gray;
+                font-size:22px;
+                display:flex;
+                justify-content:center;
+                align-items:center;
+            }
+
+            .logo-img{
+                position:absolute;
+                top:30px;
+                left:20px;
+                height:100px;
+                width:100px; 
+
+            }
+            .heading h1{
+                color:white;
+                font-size:50px; 
+            }
+            .heading h1:hover{
+                color:white;
+                opacity:0.7;
+                cursor:pointer;
+            }
+            .menu{
+                display:flex;
+                flex-direction:column;
+                justify-content:center;
+                align-items:center;
+                text-align:left;
+                margin-top:20vh;
+                font-size:50px;
+            }
+            .menu li{
+                text-align:left;
+                margin-bottom:20vh;
+                list-style: none;
+                transition: box-shadow 0.15s;
+                border-radius:8px;
+                padding-left:4px;
+                padding-right:4px;
+            }
+            .menu li a{
+                text-decoration: none;
+                color:white;
+                
+            }
+            .menu li:hover{
+                color:rgb(56, 36, 36);
+                opacity:0.6;
+                cursor:pointer;
+                box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+                border-radius:8px;
+                padding-left:4px;
+                padding-right:4px;
+            }
+            .footnote{
+                background-color:gray;
+                height:200px;
+                position:absolute;
+                bottom:0;
+                left:0;
+                right:0; 
+                display:flex;
+                flex-direction:row;
+                padding-left:20px;
+                padding-right:20px;
+                align-items:center;
+            }
+            .left-side{
+                display:flex;
+                align-items:center;
+                flex-direction: column;
+                row-gap:5px;
+                color:white;
+                margin-top:15px;
+                padding-right:13px;
+                font-size:14px;
+                text-align: center;
+                line-height: 25px;
+            }
+            .mid{
+                height:190px;
+                background-color:red;
+                width:4px;
+            }
+            .right-side{
+                line-height: 20px;
+                padding-left:20px;
+                color:white;
+                font-size:13px;
+                display:flex;
+
+            }
+            	/* now time for slide show BHAWWMM!!!!*/
+                .monasteryimg{
+																			  width:1000px;
+																			  margin:0 auto;
+																			  height:500px;
+																			  display:flex;
+																			  
+																			  justify-content:center;
+																			  background-image:url(images/slideshow1.jpg);
+																			  background-size:cover;
+																			  background-position:center;
+																			  background-repeat:no-repeat;
+																			  transition:5s;
+																			  animation-name:animate;
+																			  animation-direction:alternate-reverse;
+																			  animation-play-state:running;
+																			  animation-timing-function:ease-in-out;
+																			  animation-duration:30s;
+																			  animation-fill-mode:forwards;
+																			  animation-iteration-count:infinite;
+																			}
+																			@keyframes animate{
+																			  0%{
+																				background-image:url(images/slideshow1.jpg);
+																			  }
+																			  30%{
+																				background-image:url(images/slideshow2.jpg);
+																			  }
+																			  60%{
+																				background-image:url(images/slideshow3.jpg);
+																			  }
+                                                                              100%{
+                                                                                background-image:url(images/slideshow4.jpg)
+                                                                              }
+                                                                              
+																		
+																			
+																			  
+																			}
+        </style>
+    </head>
+    <body>
+        <div class="mainbody">
+            <div class="heading">
+                <div class="logo-div">
+                    <img class="logo-img"src="images/main-logo.png">
+                </div>
+                
+                <h1>གྲྭ་ལུང་བསམ་གཏན་གླིང་དགོན་པ།</h1>
+            </div>
+            <div class="monasteryimg"></div>
+            <div class="menu">
+                <li><a href="history.html">History</a></li>
+                <li><a href="lineage.html">Lineage</a></li>
+                <li><a href="founder.html">Founder</a></li>
+                <li><a href="member.html">Members</a></li>
+                <li><a href="contact.html">Contact</a></li></div>
+            <div class="footnote">
+                <div class="left-side">
+                    <p>Dralung Samtenling Monastery, Dopo-Buddha VDC, Ward no. 3, Karnali, Nepal. E-mail:dolponorbu@hotmail.com, Phone no: 9851040005 </p>
+                   
+                </div>
+                <div class="mid"></div>
+                <div class="right-side">
+                    <p><span style="font-size:15px"><b>Ben-Tsang Monasteries</b></span></p>
+                    <p>Dralung Monastery.</p>
+                    <p>Wang-ri Monastery</p>
+                    <p>Balung-Monastery.</p>
+                    <p>Phu-Monastery.</p>
+                    <p>Thakar-Monastery.</p>
+                    <p>Gontod-Monastery.</p>
+                </div>
+            </div>
+
+        </div>
+    </body>
+    
+</html>

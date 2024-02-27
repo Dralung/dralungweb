@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="uft-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .main-body{
+                height:2500px;
+                max-width:1380px;
+                background-color: rgb(211, 211, 93);
+                margin:auto;
+                position:relative;
+            }
+            .header{
+                height:260px;
+                background-color:yellow;
+                opacity:0.7;
+                width:1000px;
+                border-bottom-right-radius: 40px;
+            }
+            .main-logo{
+                position:absolute;
+                top:20px;
+                left:-96px;
+                height:200px;
+                width:200px;
+            }
+            .administration{
+                position:absolute;
+                top:20px;
+                left:350px;
+                text-align:center;
+                font-size:40px;
+                line-height:90px;
+                color:rgb(19, 17, 17);
+                font-weight: bold;
+                opacity: 0.8;
+            }
+            .cheif-profile1{
+                height:200px;
+                width:200px;
+                border-width:10px;
+                border-style:solid;
+                border-color:white;
+                border-radius:125px;
+                position:absolute;
+                object-fit:cover;
+                top:400px;
+                left:650px;
+                background-color:yellow;
+                box-shadow: 2px 2px 10px rgba(92, 92, 88, 0.5);
+            }            
+            .cheif-profile2{
+                height:200px;
+                width:200px;
+                border-width:10px;
+                border-style:solid;
+                border-color:white;
+                border-radius:125px;
+                position:absolute;
+                object-fit:cover;
+                top:900px;
+                left:150px;
+                background-color:yellow;
+                box-shadow: 2px 2px 10px rgba(92, 92, 88, 0.5);
+            }
+            .cheif-profile3{
+                height:200px;
+                width:200px;
+                border-width:10px;
+                border-style:solid;
+                border-color:white;
+                border-radius:125px;
+                position:absolute;
+                object-fit:cover;
+                top:1400px;
+                left:650px;
+                background-color:yellow;
+                box-shadow: 2px 2px 10px rgba(92, 92, 88, 0.5);
+            }
+            .cheif-profile4{
+                height:200px;
+                width:200px;
+                border-width:10px;
+                border-style:solid;
+                border-color:white;
+                border-radius:125px;
+                position:absolute;
+                object-fit:cover;
+                top:1900px;
+                left:150px;
+                background-color:yellow;
+                box-shadow: 2px 2px 10px rgba(92, 92, 88, 0.5);
+            }
+            .president{
+                position:absolute;
+                top:500px;
+                left:20px;
+                height:345px;
+                background-color:white;
+                width:500px;
+                opacity:0.7;
+                border-top-left-radius: 40px;
+                border-bottom-left-radius: 40px;
+                border-bottom-right-radius: 40px;
+                box-shadow: 2px 2px 10px rgba(92, 92, 88, 0.5);
+                font-size:25px;
+                color:rgb(54, 51, 51);
+                font-style:underline;
+                padding-left:15px;
+                padding-right:15px;
+                text-align: justify;
+            }
+
+            .vice-president{
+                position:absolute;
+                top:1000px;
+                left:440px;
+                height:300px;
+                background-color:white;
+                width:500px;
+                opacity:0.7;
+                border-top-right-radius: 40px;
+                border-bottom-left-radius: 40px;
+                border-bottom-right-radius: 40px;
+                padding:20px;
+                box-shadow: 2px 2px 10px rgba(92, 92, 88, 0.5);
+                font-size:25px;
+                color:rgb(54, 51, 51);
+                text-align: justify;
+            }
+            .secretary{
+                position:absolute;
+                top:1500px;
+                left:20px;
+                height:300px;
+                background-color:white;
+                width:500px;
+                opacity:0.7;
+                border-top-left-radius: 40px;
+                border-bottom-left-radius: 40px;
+                border-bottom-right-radius: 40px;
+                padding:20px;
+                box-shadow: 2px 2px 10px rgba(92, 92, 88, 0.5);
+                font-size:25px;
+                color:rgb(54, 51, 51);
+                text-align: justify;
+            }
+            .vice-secretary{
+                position:absolute;
+                top:2000px;
+                left:440px;
+                height:300px;
+                background-color:white;
+                width:500px;
+                opacity:0.7;
+                border-top-right-radius: 40px;
+                border-bottom-left-radius: 40px;
+                border-bottom-right-radius: 40px;
+                padding:20px;
+                box-shadow: 2px 2px 10px rgba(92, 92, 88, 0.5);
+                font-size:25px;
+                color:rgb(54, 51, 51);
+                text-align: justify;
+            }
+            .footer{
+                background-color:gray;
+                height:200px;
+                width:1340px;
+                margin:auto;
+                display:flex;
+                flex-direction:row;
+                padding-left:20px;
+                padding-right:20px;
+                align-items:center;
+            }
+            .left-side{
+                display:flex;
+                align-items:center;
+                flex-direction: column;
+                row-gap:5px;
+                color:white;
+                margin-top:15px;
+                padding-right:13px;
+                font-size:14px;
+                text-align: center;
+                line-height: 25px;
+            }
+            .mid{
+                height:190px;
+                background-color:red;
+                width:4px;
+            }
+            .right-side{
+                line-height: 20px;
+                padding-left:20px;
+                color:white;
+                font-size:13px;
+                display:flex;
+
+            }
+
+
+        </style>
+    </head>
+    <body>
+        <div class="main-body">
+            <div class="header"></div>
+            <img class="main-logo"src="images/main-logo.png">
+            <div class="administration"><p >Board Council Member <br>2024</p></div>
+            <img class="cheif-profile1"src="images/member_chief1.png">
+            <img class="cheif-profile2"src="images/jigmeprofile.png">            
+            <img class="cheif-profile3"src="images/kunga_profile.png">
+            <img class="cheif-profile4"src="images/urgen_jigtak.png">
+
+            <div class="president"><p style="line-height:12px; font-size:25px">President</p>
+            <p style="line-height:6px;"><b>Lama Tenzin Norbu</b></p><P>Lama Tenzin Norbu is current throne holder of the monastery. He inheritate the fore-father's Dhamma along with ritaulistic puja which he later develope to its pinnacle with exoteric painting and landscapes mural to teach the Dhamma. It is his peculiar way of teaching Dhamma that he stand from the rest of throne holders till date.</P></div>
+            <div class="vice-president"> <p style="line-height:12px; font-size:25px">Vice-President</p>
+            <p style="line-height:6px;"><b>Ngawang Jigme</b></p><P>Ngawang Jigme the third son of current throne holder of monastery, now actively immersed in his study, kept his faith in the linneage of truth seeker and  his passion drive by this compassionate act of serving the monastery as a vice president.</P>
+            </div>
+            <div class="secretary"><p style="line-height:12px; font-size:25px">Secretary</p>
+                <p style="line-height:6px;"><b>Kunga-Lama</b></p><P>Born to a noble family, Kunga Lama, one of very few people with the charm and intelect was trusted by the whole village commune, hence he is now secretary of the Dralung Monastery for almost decades.</P></div>
+            <div class="vice-secretary"><p style="line-height:12px; font-size:25px">Vice-Secretary</p>
+                <p style="line-height:6px;"><b>Urgen Jigtak</b></p><P>Urgen Jigtak, son of yogi, honest and compassionate young talented boy from village, voted by majority of villager to this post is currently furnishin his Medical career, manages his time for this post with his best flexiblity.</P></div>
+        </div>
+    
+        </div>    
+        <div class="footer">
+            <div class="left-side">
+                <p>Dralung Samtenling Monastery, Dopo-Buddha VDC, Ward no. 3, Karnali, Nepal. E-mail:dolponorbu@hotmail.com, Phone no: 9851040005 </p>
+               
+            </div>
+            <div class="mid"></div>
+            <div class="right-side">
+                <p><span style="font-size:15px"><b>Ben-Tsang Monasteries</b></span></p>
+                <p>Dralung Monastery.</p>
+                <p>Wang-ri Monastery</p>
+                <p>Balung-Monastery.</p>
+                <p>Phu-Monastery.</p>
+                <p>Thakar-Monastery.</p>
+                <p>Gontod-Monastery.</p>
+            </div>
+            </div>
+    </body>
+</html>
